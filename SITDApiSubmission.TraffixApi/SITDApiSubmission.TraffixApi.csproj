@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SITDApiSubmission.API\SITDApiSubmission.API.csproj" />
+    <ProjectReference Include="..\SITDApiSubmission.Client\SITDApiSubmission.Client.csproj" />
+  </ItemGroup>
+
+</Project>
